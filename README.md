@@ -5,7 +5,7 @@ This bot monitors user activity in Telegram groups and automatically removes ina
 ## Features
 
 - Tracks last message date for each user in the group
-- Automatically removes users who haven't sent messages in x (default: 21) days
+- Automatically removes users who haven't sent messages in x (default: 21) days but they are kicked instead of banned so they can always join back in.
 - Excludes administrators from removal
 - Uses SQLite database to persist user activity data
 - Chunk error logging pushed to DM via "/setlogdm" (bot owner only) ("/setlogdm off" to disable.)
