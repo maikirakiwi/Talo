@@ -31,6 +31,9 @@ This bot monitors user activity in Telegram groups and automatically removes ina
 4. Users who don't send messages for x (default: 21) days will be automatically removed
 
 ## Note
+Bot is designed to moderate one single chat/channel.
+
+Existing users in the channel will be tracked after they send their first message when bot is online.
 
 Make sure the bot has the following permissions in the group:
 - Delete messages
